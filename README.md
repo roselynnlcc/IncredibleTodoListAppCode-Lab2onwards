@@ -1,3 +1,16 @@
+# Introduction
+The repository contains Lab Assignments of Fall 2023 Mobile Application Development.
+
+Lab Assignment 1: [Spinning Up React Native App](https://github.com/roselynnlcc/IncredibleTodoListApp) 
+
+Lab Assignment 2 (Initial Commit): 
+Refactor React Native code into ToDoList and ToDoForm components to enhance organization and maintainability
+
+Lab Assignment 3: Props and State Management
+A list of hard-coded list of tasks is created in the App.jsx file and then passedto the ToDoList component.
+
+
+# React Native Descriptions:
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
 # Objective
