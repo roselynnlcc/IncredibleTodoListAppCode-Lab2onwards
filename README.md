@@ -1,5 +1,8 @@
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
+# Objective
+This React Native project involves initial code for a ToDo list and form in a React Native app. The main objective is to refactor this code into separate components, ToDoList and ToDoForm, to enhance code organization and maintainability. This lab assignment focuses on applying modularity principles in React development.
+
 # Getting Started
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
