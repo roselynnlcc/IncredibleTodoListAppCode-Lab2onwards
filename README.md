@@ -9,6 +9,9 @@ Refactor React Native code into ToDoList and ToDoForm components to enhance orga
 - Lab Assignment 3: Props and State Management
 A list of hard-coded list of tasks is created in the App.jsx file and then passedto the ToDoList component.
 
+- Lab Assignment 4: Event Handling & State Lifting
+Task addition to the ToDo List was implemented through form interaction, leveraging state management and event handling in React.
+
 
 # React Native Descriptions:
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
