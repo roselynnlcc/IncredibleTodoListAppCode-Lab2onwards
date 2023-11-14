@@ -12,6 +12,9 @@ A list of hard-coded list of tasks is created in the App.jsx file and then passe
 - Lab Assignment 4: Event Handling & State Lifting
 Task addition to the ToDo List was implemented through form interaction, leveraging state management and event handling in React.
 
+- Lab Assignment 5: Navigation and Routing
+Routing and navigation are implemented to set up different screens. Users are enabled to navigate between them within the app.
+
 
 # React Native Descriptions:
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
