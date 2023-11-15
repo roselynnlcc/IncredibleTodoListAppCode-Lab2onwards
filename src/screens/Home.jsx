@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { View, Text, SafeAreaView, Button, StyleSheet } from 'react-native';
+import React, {useState} from 'react';
+import {View, Text, SafeAreaView, Button, StyleSheet} from 'react-native';
 import ToDoList from '../ToDoList';
 import ToDoForm from '../ToDoForm';
 
@@ -15,7 +15,7 @@ const darkTheme = {
   buttonColor: '#1E90FF', // Example dark theme button color
 };
 
-function Home({ navigation }) {
+function Home({navigation}) {
   const [tasks, setTasks] = useState(['Do laundry', 'Go to gym', 'Walk dog']);
   const [theme, setTheme] = useState(lightTheme);
 
@@ -34,25 +34,36 @@ function Home({ navigation }) {
   };
 
   return (
-    <View style={[styles.container, { backgroundColor: theme.backgroundColor }]}>
-      <Text style={[styles.title, { color: theme.textColor }]}>
+    <View style={[styles.container, {backgroundColor: theme.backgroundColor}]}>
+      <Text style={[styles.title, {color: theme.textColor}]}>
         Incredible ToDo App
       </Text>
       <Button
-        title={theme === lightTheme ? 'Change to Dark Mode' : 'Change to Light Mode'}
+        title={
+          theme === lightTheme ? 'Change to Dark Mode' : 'Change to Light Mode'
+        }
         onPress={toggleTheme}
         color={theme.buttonColor}
       />
       <SafeAreaView style={styles.safeAreaView}>
         <ToDoList tasks={tasks} theme={theme} />
         <View style={styles.toDoFormContainer}>
-        <ToDoForm addTask={addTask} />
+          <ToDoForm addTask={addTask} />
         </View>
-        <Button
-          title="Go to About"
-          onPress={() => navigation.navigate('About')}
-          color={theme.buttonColor}
-        />
+        <View style={styles.buttonContainer}>
+          <Button
+            title="Enjoy some Chuck Norris Facts!"
+            onPress={() => navigation.navigate('ChuckNorrisFact')}
+            color={theme.buttonColor}
+          />
+        </View>
+        <View style={styles.buttonContainer}>
+          <Button
+            title="Go to About"
+            onPress={() => navigation.navigate('About')}
+            color={theme.buttonColor}
+          />
+        </View>
       </SafeAreaView>
     </View>
   );
@@ -73,7 +84,10 @@ const styles = StyleSheet.create({
   },
   toDoFormContainer: {
     marginBottom: 20,
-  }
+  },
+  buttonContainer: {
+    marginBottom: 10,
+  },
 });
 
 export default Home;
