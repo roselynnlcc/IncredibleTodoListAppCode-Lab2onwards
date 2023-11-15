@@ -15,6 +15,9 @@ Task addition to the ToDo List was implemented through form interaction, leverag
 - Lab Assignment 5: Navigation and Routing
 Routing and navigation are implemented to set up different screens. Users are enabled to navigate between them within the app.
 
+- Lab Assignment 6: Data Fetching (Bonus)
+The Todo List app is enhanced by implementing data fetching from JSON file.
+
 
 # React Native Descriptions:
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
